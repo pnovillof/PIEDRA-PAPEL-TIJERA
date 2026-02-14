@@ -7,18 +7,18 @@ print("2 = Papel")
 print("3 = Tijera")
 
 
-
-WHILE TRUE:
+while True:
     try:
         A = int(input("Ingrese su opción (1-3): ")) #Solicito ingresar la selección de usuario
         if A in [1, 2, 3]:
             break # selección correcta
         else:
             print ("Opción inválida. Intente nuevamente.")
-        except ValueError:
+    except ValueError:
             print("Debe ingresar un número válido.")
     
 B = random.randint(1, 3) #Proceso interno de computador de selección de opción
+
 print("\nComputadora eligió:", B)
 
 #Creamos la estructura condicional, junto con una opción si alguien mete mal el dedo
