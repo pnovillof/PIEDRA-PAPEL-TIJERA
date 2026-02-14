@@ -4,7 +4,7 @@ print("PIEDRA, PAPEL O TIJERA") #Mostramos mensaje para que usuario sepa que hac
 print("Seleccione una opción:")
 print("1 = Piedra")
 print("2 = Papel")
-print("3 = Tijera"
+print("3 = Tijera")
 
 A = int(input("Ingrese su opción (1-3): ")) #Solicito ingresar la selección de usuario
 
