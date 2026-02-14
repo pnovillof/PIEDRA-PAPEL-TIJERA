@@ -1,3 +1,16 @@
-Se seleccionó como código a desarrollar el juego “Piedra, Papel o Tijera”. 
-En la etapa de identificación y comprensión del problema, se definieron las reglas oficiales del juego: la piedra vence a la tijera, la tijera vence al papel, el papel vence a la piedra y, si ambas elecciones son iguales, se produce un empate. 
-El objetivo es desarrollar un programa donde participen dos jugadores —usuario y computadora— y el sistema determine automáticamente el resultado según estas reglas.
+1. INTRODUCCIÓN.
+
+Se seleccionó el juego “Piedra, Papel o Tijera”. 
+
+Las reglas del juego son: 
+Piedra vence a la tijera,
+
+Tijera vence al papel,
+
+Papel vence a la piedra,
+
+Si ambas elecciones son iguales, empate.
+
+
+Nuestro objetivo es desarrollar un programa con dos jugadores —usuario y computadora— y el sistema determine automáticamente el resultado las reglas descritas anteriormente.
+
