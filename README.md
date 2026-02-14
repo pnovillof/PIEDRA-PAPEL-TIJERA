@@ -21,3 +21,11 @@ Código/  Diagramas/  README.md
 4. DESCRIPCIÓN DEL FLUJOGRAMA
 
 El flujograma muestra el funcionamiento del juego Piedra, Papel o Tijera. Iniciamos solicitando al usuario (A) que seleccione una opción (1 = Piedra, 2 = Papel, 3 = Tijera), mientras que la computadora (B) genera su elección de manera randomica. Luego, se comparan ambas selecciones mediante estructuras condicionales: si A y B son iguales, se declara empate; en los casos donde la combinación favorece a la computadora, se muestra “Gana Computadora”; y cuando la combinación favorece al usuario, se muestra “Gana Usuario”. Finalmente, el proceso termina.
+
+5. LIBRERIA RANDOM
+
+La librería "random" permite simular comportamientos aleatorios o randomicos dentro del programa. En el desarrollo del juego Piedra, Papel o Tijera, se utiliza para generar la elección aleatoria de la computadora.
+
+random.randint(1, 3)
+Esto significa:
+Genera un número entero aleatorio entre 1 y 3. Cada vez que ejecutas el programa, la computadora puede elegir un número diferente.
