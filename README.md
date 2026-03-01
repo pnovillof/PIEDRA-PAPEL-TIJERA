@@ -29,3 +29,6 @@ La librería "random" permite simular comportamientos aleatorios o randomicos de
 random.randint(1, 3)
 Esto significa:
 Genera un número entero aleatorio entre 1 y 3. Cada vez que ejecutas el programa, la computadora puede elegir un número diferente.
+
+CONTROL DE CAMBIOS.
+2026-03-01 - 8:37: Se actualiza el diagrama unifilar para incluir un bucle que permite reiniciar el juego y la función "Resultados", responsable de evaluar y determinar el ganador o si es empate. Además se incorporó un validador de datos de entrada
